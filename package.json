@@ -1,0 +1,20 @@
+{
+  "name": "csv-upload-tutorial-medium",
+  "version": "1.0.0",
+  "description": "Trying to upload csv files to MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hr",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.5",
+    "multer": "^1.4.5-lts.1"
+  }
+}

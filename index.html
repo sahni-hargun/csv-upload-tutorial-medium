@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <title>CSV Upload Test</title>
+    <style>
+      table, th, td {
+            border: 1px solid black;
+         }
+    </style>
+  </head>
+  <body>
+    <br>	
+    <center>
+      <div class="container">
+        <form id="upload_form" enctype="multipart/form-data" name="file">
+          <div>
+            <label>Select file to upload</label>
+            <input type="file" id="fileinput">
+          </div>
+          <br>
+          <button type="submit">Upload</button>
+        </form>
+      </div>
+    </center>	
+    <hr>
+    <center>
+      <h2>Dumbledore's Army:</h2>
+      <table id="table" class="table">
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>House</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">  
+        </tbody>
+      </table>
+    </center>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
